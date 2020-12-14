@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.cadastrar a:hover{
+    text-decoration: none;
+    background:  #2980b9;
+}
+
+#body-login{
+   
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: royalblue;
+    
+}
+
+.container{
+    width: 90%;
+    border-radius: 45px;
+    padding: 15px;
+    margin: 2% auto;
+    
+
+   
+}
+.logo{
+    border-bottom:1px solid black ;
+}
+.logo{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.branco{
+    color: #fff;
+}
+
+
+
+#login{
+    background: #fff url('../png/fundo.jpg');
+    margin: 0 auto;
+    width: 70.3%;
+   
+    border-radius: 40px;
+    
+    padding: 10px;
+}
+
+.imagem{
+    padding: 10px;
+}
+
+.area-login{
+    text-align: center;
+}
+
+.area-login input[type="text"],.area-login input[type="password"]{
+    border: 1px solid black;
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    padding-left: 40px;
+
+}
+.usuario{
+    background: #fff url('../png/icone-usuario.png') no-repeat;
+    background-position: 10px;
+}
+
+.senha{
+    background: #fff url('../png/icone-cadeado.png') no-repeat;
+    background-position: 10px;
+}
+.botao{
+    border: 1px solid black;
+    background: #FFF;
+    padding: 10px;
+    width: 150px;
+    
+}
+
+.area-login input,.botao{
+    border-radius: 10px;
+}
+.area-login button:hover{
+    color:#fff;
+    background-color: #2980b9;
+}
+#campo{
+    border: 0;
+    color: #fff;
+}
+.lembrar,.checkbox{
+    display: inline-block;
+    margin: 20px 25px;
+}
+
+.cadastrar{
+    margin-top:15px;
+    
+}
+.cadastrar a{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
